@@ -8,7 +8,7 @@ const projects = [
         status: "In development",
         description:
             "A Python image-processing app with a drag-and-drop desktop interface. Current tools include resize, crop, blur, and sharpen; AI enhancement is planned.",
-        technologies: ["Python", "Image processing", "Desktop app"],
+        technologies: ["Python", "Tkinter", "TkinterDnD2", "OpenCV", "PyTorch", "NumPy", "BasicSR", "Real-ESRGAN"],
         repository: "https://github.com/Erics12487254/Ai-Enhancer-Toolkit",
         demo: "",
         image: "Sources/Images/Ai_Enhancer_Toolkit.png"
@@ -32,6 +32,16 @@ const projects = [
         repository: "https://github.com/Erics12487254/Oat-of-Ashes-Game-Jam-Competition-Project",
         demo: "",
         image: "Sources/Images/Oat_of_Ashes.jpg"
+    },
+    {
+        title: "Image Upscaling Lab",
+        status: "Ready",
+        description:
+            "An experiment lab to explore image upscaling by comparing Bicubic, ESPCN, and Real-ESRGAN, and measuring their results with PSNR, SSIM, and runtime.",
+        technologies: ["Python", "OpenCV", "NumPy", "ESPCN", "Real-ESRGAN", "Bicubic Interpolation", "PSNR", "SSIM", "Image Processing", "Computer Vision"],
+        repository: "https://github.com/Erics12487254/Image-Upscaling-Lab",
+        demo: "",
+        image: "Sources/Images/Image_Upscaling_Lab.jpg"
     }
 ];
 
