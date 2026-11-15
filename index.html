@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Han Htoo Aung's portfolio: projects, achievements, skills, and contact information.">
+    <meta name="theme-color" content="#0d1017">
+    <title>Han Htoo Aung | Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Site styles and script -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Welcome screen -->
+    <div class="welcome-screen" id="welcome-screen" role="status" aria-live="polite">
+        <p>Hello! It’s me <span>Han Htoo Aung.</span></p>
+        <button class="welcome-skip" id="skip-intro" type="button">Skip intro</button>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar page-width" aria-label="Main navigation">
+            <a class="logo" href="#home" aria-label="Han Htoo Aung, home">Erics<span>.</span></a>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero page-width" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow">ENTHUSIASTIC · BUILDER · LEARNER</p>
+                <h1>Hi, I’m <span>Han.</span></h1>
+                <p class="hero-description">
+                    I’m an Information Technology student who loves learning by building projects in software,
+                    image processing, networking, and more.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
+                    <a class="button button-secondary" href="#contact">Get in touch</a>
+                </div>
+            </div>
+            <div class="hero-note" aria-label="Portfolio motto">
+                <span class="note-mark" aria-hidden="true">✳</span>
+                <p>Build.<br>Learn.<br>Improve.</p>
+            </div>
+        </section>
+
+        <!-- Highlights -->
+        <section class="section" id="highlights">
+            <div class="page-width">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">SELECTED WORK & MILESTONES</p>
+                        <h2>Highlights</h2>
+                    </div>
+                </div>
+                <h3 class="highlight-subheading">Projects</h3>
+                <div class="project-list" id="project-highlights" aria-live="polite"></div>
+                <h3 class="highlight-subheading">Achievements</h3>
+                <div class="achievement-list" id="achievement-highlights" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="page-width">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">SELECTED WORK</p>
+                        <h2>Projects</h2>
+                    </div>
+                    <p class="section-intro">A collection of things I’ve built and explored. Open a project to see its repository or demo.</p>
+                </div>
+                <div class="project-list" id="project-container" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="section section-muted" id="achievements">
+            <div class="page-width">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">PROOF OF PROGRESS</p>
+                        <h2>Achievements</h2>
+                    </div>
+                    <p class="section-intro">Certificates and milestones from my learning journey.</p>
+                </div>
+                <div class="achievement-list" id="achievement-container" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="page-width">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">WHAT I’M LEARNING</p>
+                        <h2>Skills</h2>
+                    </div>
+                    <p class="section-intro">A growing toolkit shaped by coursework, projects, and practice.</p>
+                </div>
+                <div class="skills-grid" id="skills-container" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact">
+            <div class="page-width contact-content">
+                <div>
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Let’s connect.</h2>
+                    <p>Feel free to explore my work or reach out through my social platforms.</p>
+                </div>
+
+                <!-- JavaScript generates the social links here -->
+                <div class="social-links" id="social-container"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer page-width">
+        <a class="logo" href="#home">Erics<span>.</span></a>
+        <p>© <span id="current-year">2026</span> Han Htoo Aung</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
