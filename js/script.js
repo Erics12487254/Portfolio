@@ -57,12 +57,18 @@ const achievements = [
         issuer: "Cisco Networking Academy",
         year: "2024",
         pdf: "Documents/cisco networking academy 2024.pdf"
+    },
+    {
+        title: "N5 Certificate in Japanese Language Proficiency (Unofficial)",
+        issuer: "CIC Japanese Language Center",
+        year: "2026",
+        pdf: "Documents/N5_certificate_Unofficial.pdf"
     }
 ];
 
 // Choose the items shown in Highlights by title.
 const projectHighlights = ["AI Enhancer Toolkit", "Oat of Ashes"];
-const achievementHighlights = ["Cisco Cybersecurity Beginners", "Network Technician Career Path"];
+const achievementHighlights = ["Cisco Cybersecurity Beginners", "Network Technician Career Path", "N5 Certificate in Japanese Language Proficiency (Unofficial)"];
 
 const skills = [
     {
