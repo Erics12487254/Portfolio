@@ -63,12 +63,18 @@ const achievements = [
         issuer: "CIC Japanese Language Center",
         year: "2026",
         pdf: "Documents/N5_certificate_Unofficial.pdf"
+    }, 
+        {
+        title: "International English Language Testing System (IELTS) – Academic",
+        issuer: "British Council",
+        year: "2024",
+        pdf: "Documents/IELTS.pdf"
     }
 ];
 
 // Choose the items shown in Highlights by title.
 const projectHighlights = ["AI Enhancer Toolkit", "Oat of Ashes"];
-const achievementHighlights = ["Cisco Cybersecurity Beginners", "Network Technician Career Path", "N5 Certificate in Japanese Language Proficiency (Unofficial)"];
+const achievementHighlights = ["Cisco Cybersecurity Beginners", "Network Technician Career Path", "N5 Certificate in Japanese Language Proficiency (Unofficial)", "International English Language Testing System (IELTS) – Academic"];
 
 const skills = [
     {
@@ -99,6 +105,10 @@ const skills = [
     {
         category: "Development Tools",
         technologies: ["Git", "GitHub", "VS Code"]
+    },
+    {
+        category: "Languages",
+        technologies: ["English (C1)", "Japanese (N5)", "Burmese (Native)"]
     }
 ];
 
